@@ -5,8 +5,9 @@ public class Planet {
   private int ships;
   private int growth;
 
-  public Planet(Owner owner, int growth) {
+  public Planet(Owner owner, int ships, int growth) {
     this.owner = owner;
+    this.ships = ships;
     this.growth = growth;
   }
 
